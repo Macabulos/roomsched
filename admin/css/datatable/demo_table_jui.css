@@ -34,6 +34,7 @@ div.dataTables_wrapper .ui-widget-header {
 table.display thead th div.DataTables_sort_wrapper {
   padding-right: 20px;
   position: relative;
+ 
 }
 table.display thead th div.DataTables_sort_wrapper span {
   margin-top: -8px;

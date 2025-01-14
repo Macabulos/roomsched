@@ -1701,9 +1701,12 @@ table {
 .table td {
   padding: 8px;
   line-height: 18px;
-  text-align: left;
+  text-align: center;
   vertical-align: top;
   border-top: 1px solid #ffffff;
+}
+.del td{
+  text-align: center;
 }
 
 .table th {
@@ -1725,6 +1728,7 @@ table {
 
 .table tbody + tbody {
   border-top: 2px solid #dddddd;
+  text-align: center;
 }
 
 .table-condensed th,

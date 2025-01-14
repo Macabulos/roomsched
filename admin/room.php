@@ -35,7 +35,7 @@ include('./components/main.php');
 							while ($row = mysqli_fetch_array($result)) {
 								$id = $row['room_id'];
 								?>
-								<tr class="del<?php echo $id ?>">
+								<tr class="del<?php echo $id ?>" style="text-align: center;">
 									<td><?php echo $row['floor_number'] ? 'Floor ' . $row['floor_number'] : 'No Floor Assigned'; ?>
 									<td><?php echo $row['room_name']; ?></td>
 
