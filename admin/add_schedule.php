@@ -95,7 +95,7 @@ include('./components/main.php');
                                     <label class="control-label" for="input01">Day of Lecture:</label>
                                     <div class="controls">
                                         <select style="width: 75%;" id="schedule-day-input" name="day_of_week" required>
-                                            <option value="Sunday">Sunday</option>
+                                            
                                             <option value="Monday">Monday</option>
                                             <option value="Tuesday">Tuesday</option>
                                             <option value="Wednesday">Wednesday</option>
